@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SmokeTestSuite">
+	<listeners>
+		<listener class-name="Tests.ITestListenerClass"></listener>
+	</listeners>
+	<test name="SmokeTest">
+		<classes>
+			<class name="Tests.TestPrepOne" />
+		</classes>
+	</test><!--
+	Test -->
+</suite> <!--Suite -->
